@@ -18,5 +18,3 @@ RUN set -x && \
     kubectl version --client
 
 USER kubectl
-
-ENTRYPOINT ["/usr/local/bin/kubectl"]
